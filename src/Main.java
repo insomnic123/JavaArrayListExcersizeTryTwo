@@ -19,6 +19,7 @@ public class Main {
 
         // Mark the first task as complete
         tasks.get(0).markAsComplete();
+        tasks.remove(2);
 
         // Display updated tasks
         System.out.println("\nUpdated To-Do List:");
